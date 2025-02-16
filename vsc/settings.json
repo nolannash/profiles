@@ -1,0 +1,396 @@
+// {
+//   // Workbench and UI
+//   "workbench.colorTheme": "Drkryz Smooth Dark Theme",
+//   "workbench.iconTheme": "material-icon-theme",
+//   "workbench.productIconTheme": "fluent-icons",
+//   "workbench.startupEditor": "none",
+//   "workbench.activityBar.location": "hidden",
+//   "workbench.sideBar.location": "left",
+//   "workbench.editor.pinnedTabSizing": "compact",
+//   "workbench.editor.tabSizing": "shrink",
+//   "workbench.tree.renderIndentGuides": "none",
+//   "workbench.editor.enablePreview": false,
+//   "workbench.editor.tabActionCloseVisibility": true,
+//   "workbench.panel.defaultLocation": "left",
+//   "workbench.editor.customLabels.enabled": true,
+//   "terminal.integrated.showExitAlert": true,
+//   "window.customMenuBarAltFocus": true,
+//   // Editor - General
+//   "editor.fontSize": 16,
+//   "editor.fontFamily": "Hack Nerd Font",
+//   "editor.fontLigatures": true,
+//   "editor.lineHeight": 1.75,
+//   "editor.minimap.enabled": false,
+//   "editor.formatOnSave": true,
+//   "editor.detectIndentation": true,
+//   "editor.tabSize": 4,
+//   "editor.unicodeHighlight.ambiguousCharacters": false,
+//   "editor.accessibilitySupport": "off",
+//   // Editor - Appearance
+//   "editor.renderWhitespace": "boundary",
+//   "editor.renderLineHighlight": "all",
+//   "editor.renderControlCharacters": true,
+//   "editor.glyphMargin": false,
+//   "editor.folding": true,
+//   "editor.lineNumbers": "on",
+//   "editor.guides.indentation": false,
+//   "editor.overviewRulerBorder": false,
+//   "editor.lightbulb.enabled": "off",
+//   // Editor - Cursor and Scrolling
+//   "editor.cursorBlinking": "solid",
+//   "editor.cursorSmoothCaretAnimation": "on",
+//   "editor.scrollbar.verticalScrollbarSize": 12,
+//   "editor.scrollbar.horizontalScrollbarSize": 12,
+//   "editor.multiCursorModifier": "ctrlCmd",
+//   // Editor - Suggestions and Intellisense
+//   "editor.suggestFontSize": 0,
+//   "editor.suggestLineHeight": 28,
+//   // Editor - Code Actions
+//   "editor.codeActionsOnSave": {
+//     "source.fixAll.eslint": "explicit",
+//     "source.organizeImports": "explicit"
+//   },
+//   // File Handling
+//   "files.autoSave": "afterDelay",
+//   "files.insertFinalNewline": true,
+//   // Explorer
+//   "explorer.confirmDragAndDrop": false,
+//   // "explorer.autoReveal": false,
+//   // Terminal
+//   "terminal.integrated.fontFamily": "Hack Nerd Font",
+//   "terminal.integrated.fontSize": 16,
+//   // "terminal.integrated.lineHeight": 1,
+//   "terminal.integrated.tabs.enabled": true,
+//   "terminal.integrated.tabs.location": "left",
+//   "terminal.integrated.gpuAcceleration": "on",
+//   "terminal.integrated.enableImages": true,
+//   "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+//   "terminal.integrated.env.windows": {
+//     "FIG_NEW_SESSION": "1",
+//     "CW_NEW_SESSION": "1"
+//   },
+//   // Language-specific settings
+//   "[javascript]": {
+//     "editor.defaultFormatter": "esbenp.prettier-vscode"
+//   },
+//   "[typescript]": {
+//     "editor.defaultFormatter": "esbenp.prettier-vscode"
+//   },
+//   "[vue]": {
+//     "editor.defaultFormatter": "esbenp.prettier-vscode"
+//   },
+//   "[jsonc]": {
+//     "editor.defaultFormatter": "esbenp.prettier-vscode"
+//   },
+//   // Source Control
+//   "scm.diffDecorations": "none",
+//   "editor.actions":"hidden",
+//   // Extensions and Telemetry
+//   "extensions.ignoreRecommendations": true,
+//   "telemetry.telemetryLevel": "off",
+//   // Security
+//   "security.allowedUNCHosts": ["wsl.localhost"],
+//   "security.workspace.trust.untrustedFiles": "newWindow",
+//   // Window
+//   "window.titleBarStyle": "custom",
+//   "window.restoreWindows": "all",
+//   "window.customTitleBarVisibility": "always",
+//   // Other
+//   "breadcrumbs.enabled": true,
+//   "breadcrumbs.filePath": "on",
+//   "breadcrumbs.symbolPath": "off",
+//   "update.mode": "manual",
+//   "zenMode.fullScreen": false,
+//   "zenMode.hideLineNumbers": true,
+//   "zenMode.centerLayout": false,
+//   // Prettier
+//   "prettier.printWidth": 120,
+//   // Workbench color customizations
+//   "workbench.colorCustomizations": {
+//     "editor.background": "#2a0443", // Dark Purple
+//     "editor.foreground": "#dad8a7", // Light Olive Green
+//     "activityBar.background": "#2a0443",
+//     "activityBar.foreground": "#dad8a7",
+//     "activityBar.activeBackground": "#2a0443",
+//     "activityBar.activeBorder": "#a0be56", // Olive Green
+//     "activityBar.inactiveForeground": "#7aad15", // Lime Green
+//     "statusBar.background": "#2a0443",
+//     "statusBar.foreground": "#dad8a7",
+//     "statusBar.debuggingBackground": "#2a0443",
+//     "menu.background": "#2a0443",
+//     "menu.foreground": "#dad8a7",
+//     "menu.selectionBackground": "#2a0443",
+//     "menu.selectionForeground": "#dad8a7",
+//     "menubar.selectionBackground": "#2a0443",
+//     "titleBar.activeBackground": "#2a0443",
+//     "titleBar.inactiveBackground": "#2a0443",
+//     "titleBar.border": "#2a0443",
+//     "tab.inactiveBackground": "#2a0443",
+//     "tab.activeBackground": "#070900", // Olive Green
+//     "tab.activeBorder": "#3fb8af", // Light Coral
+//     "tab.activeBorderTop": "#3fb8af",
+//     "tab.activeModifiedBorder": "#3fb8af",
+//     "tab.activeBorderRight": "#3fb8af", // Light Coral
+//     "tab.hoverBackground": "#3fb8af40", // Light Coral with Transparency
+//     "tab.hoverBorder": "#3fb8af",
+//     "editorGroupHeader.tabsBackground": "#2a0443",
+//     "sideBar.background": "#2a0443",
+//     "sideBar.foreground": "#dad8a7",
+//     "sideBarSectionHeader.background": "#2a0443",
+//     "sideBarTitle.foreground": "#dad8a7",
+//     "sideBarSectionHeader.foreground": "#dad8a7",
+//     "icon.foreground": "#0d6351", // Teal
+//     "badge.background": "#ff3d7f", // Hot Pink
+//     "button.background": "#2a0443",
+//     "button.foreground": "#dad8a7",
+//     "editor.lineHighlightBackground": "#444444",
+//     "gitDecoration.modifiedResourceForeground": "#0d6351",
+//     "gitDecoration.untrackedResourceForeground": "#3fb8af", // Teal
+//     // Remove panel border color by setting it to the background color
+//     "panel.background": "rgba(260, 20, 185, 0.25)",
+//     "panel.border": "#2a0443"
+//   },
+//   // Custom layout settings
+//   "terminal.integrated.splitCwd": "workspaceRoot",
+//   "terminal.integrated.defaultLayout": {
+//     "showTabs": true,
+//     "splitTerminals": [
+//       {
+//         "path": "vscode-pets",
+//         "direction": "right",
+//         "ratio": 0.25
+//       }
+//     ]
+//   },
+//   "window.commandCenter": false,
+//   // Tab spacing and appearance
+//   "workbench.editor.showTabs": "multiple",
+//   "workbench.editor.wrapTabs": false,
+//   "workbench.editor.decorations.badges": true,
+//   "workbench.editor.decorations.colors": true,
+//   "workbench.editor.labelFormat": "default",
+//   "workbench.editor.untitled.labelFormat": "name",
+//   "workbench.editor.limit.enabled": true,
+//   "workbench.editor.limit.value": 8,
+//   "workbench.editor.limit.perEditorGroup": true,
+//   // Animations
+//   "animations.CursorAnimation": true,
+//   "animations.CursorAnimationOptions": {
+//     "Color": "rgba(260, 20, 185, 0.25)",
+//     "TrailLength": 4
+//   },
+//   "animations.Scrolling": "Fade",
+//   "animations.Default-Duration": 1000,
+//   "animations.Tabs": "None",
+//   "animations.Smooth-Mode": false,
+//   "animations.Install-Method": "Apc Customize UI++",
+//   "animations.Enabled": true,
+//   // Apc configuration and use
+//   "apc.imports": [
+//     "file://wsl.localhost/Ubuntu/home/nolan/dev/configs/vsc/vscCustomMinimal.css",
+//     "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+//   ],
+//   "apc.sidebar.titlebar": {
+//     "height": 36,
+//     "fontSize": 12
+//   },
+//   "apc.font.family": "Hacker Nerd Font",
+//   "apc.font.size": 14,
+//   "apc.font.color": "#ffffff",
+//   "apc.border.size": 2,
+//   "window.menuBarVisibility": "compact"
+// }
+{
+  //!! These are functionality and layout settings
+  //workbench - general settings, layout, theme
+  "workbench.sideBar.location": "right",
+  "workbench.tree.indent": 15,
+  "workbench.editor.pinnedTabSizing": "compact",
+  "workbench.editor.tabSizing": "shrink",
+  //tabs - formatting and control (no css)
+  "workbench.editor.titleScrollbarSizing": "default",
+  "workbench.editor.wrapTabs": true,
+  "workbench.layoutControl.enabled": false,
+  // custom title handling for tabs   
+  "workbench.editor.customLabels.enabled": true,
+  "workbench.editor.customLabels.patterns": {
+    "**/src/**/index.html": "${dirname}/${filename}/${extname(0)}"
+  },
+  //editor -
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "bounded",
+  "editor.stickyScroll.enabled": true,
+  "editor.fontFamily": "'hack-nerd-font', fira-code-nerd, FiraCode Nerd Font",
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.guides.indentation": true,
+  "explorer.autoOpenDroppedFile": true,
+  "workbench.editor.enablePreview": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.lineHeight": 1.75,
+  "editor.accessibilitySupport": "off",
+  "editor.renderControlCharacters": true,
+  "editor.renderLineHighlight": "all",
+  "editor.folding": true,
+  "breadcrumbs.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": true,
+  "editor.tabSize": 2,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontSize": 16, // Increase the font size as needed
+  //activity bar -
+  //primary sidebar -
+  //panel 
+  //status bar -
+  //terminal -
+  // "terminal.integrated.fontFamily": " hack-nerd-font, FiraCode Nerd Font, 'Courier New', monospace, ",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.drawBoldTextInBrightColors": true,
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.tabs.location": "right",
+  // working settings -
+  "window.menuBarVisibility": "toggle",
+  // files -
+  "files.autoSave": "afterDelay",
+  //!! theming/styling
+  "workbench.colorTheme": "Monokai Vibrant",
+  "workbench.colorCustomizations": {
+    //for most monokai themes
+    "[Monokai*]": {
+      // Common background color
+      "editor.background": "#16171D",
+      "terminal.background": "#16171D",
+      "panel.background": "#16171D",
+      "statusBar.background": "#16171D",
+      "titleBar.activeBackground": "#16171D",
+      "titleBar.activeForeground": "#E5A422", // Golden Yellow
+      "titleBar.inactiveBackground": "#16171D",
+      "editorGroupHeader.tabsBackground": "#16171D",
+      "titleBar.inactiveForeground": "#75715E", // Olive Gray
+      // Indent guides
+      "editorIndentGuide.background1": "#00A0E4",
+      "editorIndentGuide.activeBackground1": "#19D1E5",
+      "editorIndentGuide.background2": "#6AEBF7",
+      // Tabs
+      "tab.activeBackground": "#16171D", // Dark background for active tabs
+      "tab.unfocusedActiveBackground": "#16171D", // Slightly lighter for inactive groups
+      "tab.activeForeground": "#E5A422", // Golden Yellow for active tab text
+      "tab.border": "#282C34", // Subtle border to separate tabs
+      "tab.activeBorder": "#E542FF", // Bright Pink for the active tab border
+      "tab.inactiveBackground": "#16171D", // Darker for inactive tabs
+      "tab.hoverBackground": "#3B3C40", // Dark hover background
+      // Dropdowns
+      "dropdown.background": "#16171D80", // Slightly transparent for layering
+      "dropdown.foreground": "#E5A422", // Golden Yellow for contrast
+      // Activity bar
+      "activityBar.background": "#16171D",
+      "activityBar.foreground": "#E5A422", // Golden Yellow for active icons
+      "activityBar.inactiveForeground": "#75715E", // Olive Gray for inactive items
+      "activityBarBadge.background": "#E5A422", // Soft Magenta for badge background
+      // Sidebar
+      "sideBar.background": "#16171D", // Dark background for the side bar
+      "sideBar.foreground": "#E5A422", // Golden Yellow for text in the side bar
+      "sideBarTitle.foreground": "#E5A422", // Golden Yellow for the side bar title
+      // Buttons
+      "button.background": "#E373CE90", // Soft Magenta with transparency
+      "button.foreground": "#1f2328", // Dark for contrast
+      // Scrollbar
+      "notificationCenter.border": "#282C34",
+      "tab.activeBorderTop": "#E542FF",
+      // "statusBar.foreground": "#E5A422",
+      "input.background": "#16171D",
+      "input.foreground": "#E5A422",
+      "input.border": "#282C34",
+      "searchEditor.findMatchBackground": "#16171d",
+      "settings.headerForeground": "#E5A422",
+      "commandCenter.background": "#16171D",
+      "commandCenter.foreground": "#E5A422",
+      "commandCenter.activeForeground": "#3B3C40",
+      "commandCenter.activeBackground": "#E5A422",
+      "input.placeholderForeground": "#75715E",
+      "statusBar.debuggingBackground": "#FF555580",
+      "titleBar.border": "#282C34",
+      "peekView.border": "#282C34",
+      "inputValidation.infoBackground": "#6AEBF780",
+      "inputValidation.infoForeground": "#00A0E4",
+      "inputValidation.warningBackground": "#F9267280",
+      "inputValidation.warningForeground": "#F92672",
+      "inputValidation.errorBackground": "#FF555580",
+      "inputValidation.errorForeground": "#FF5555",
+      "list.hoverBackground": "#3B3C40",
+      "list.activeSelectionForeground": "#E5A422",
+      "list.inactiveSelectionForeground": "#75715E",
+      "list.focusForeground": "#E5A422",
+      "scrollbar.shadow": "#1b1c23", // Very Dark Gray for scrollbar shadow
+      "scrollbarSlider.background": "#E5A42280", // Golden Yellow with transparency for default scrollbar
+      // Editor
+      "editorLineNumber.foreground": "#B0BEC540", // Light gray for line numbers
+      "editorLineNumber.activeForeground": "#E5A422", // Golden Yellow for active line number
+      "editorCursor.background": "#E542FF", // Bright Pink for cursor background
+      "editorCursor.foreground": "#E5A422", // Golden Yellow for cursor
+      // Panel
+      "panel.border": "#16171d", // Border color for the panel
+      "panelTitle.activeForeground": "#E5A422", // Golden Yellow for active panel title
+      "panelSectionHeader.background": "#16171D",
+      "panelSectionHeader.foreground": "#e5a422",
+      "panelTitle.inactiveForeground": "#75715E", // Olive Gray for inactive panel title
+      // Terminal colors
+      "terminal.border": "#282C34", // Border color for terminal split panes
+      "terminal.foreground": "#F8F8F2", // Default text color in terminal (light text)
+      "terminal.ansiBlack": "#272822", // Black ANSI color
+      "terminal.ansiBlue": "#66D9EF", // Blue ANSI color
+      "terminal.ansiBrightBlack": "#75715E", // Bright Black ANSI color
+      "terminal.ansiBrightBlue": "#A6E22E", // Bright Blue ANSI color
+      "terminal.ansiBrightCyan": "#66D9EF", // Bright Cyan ANSI color
+      "terminal.ansiBrightGreen": "#A6E22E", // Bright Green ANSI color
+      "terminal.ansiBrightMagenta": "#F92672", // Bright Magenta ANSI color
+      "terminal.ansiBrightRed": "#FF5555", // Bright Red ANSI color
+      "terminal.ansiBrightWhite": "#F8F8F2", // Bright White ANSI color
+      "terminal.ansiBrightYellow": "#F4BF75", // Bright Yellow ANSI color
+      "terminal.ansiCyan": "#66D9EF", // Cyan ANSI color
+      "terminal.ansiGreen": "#A6E22E", // Green ANSI color
+      "terminal.ansiMagenta": "#F92672", // Magenta ANSI color
+      "terminal.ansiRed": "#FF5555", // Red ANSI color
+      "terminal.ansiWhite": "#F8F8F2", // White ANSI color
+      "terminal.ansiYellow": "#F4BF75", // Yellow ANSI color
+      "terminal.selectionBackground": "#3B3C40", // Selection background color
+      "terminal.selectionForeground": "#F8F8F2", // Selection foreground color
+      "terminal.inactiveSelectionBackground": "#3B3C40", // Inactive selection background color
+      "terminal.findMatchBackground": "#1E1E1E88", // Current search match background color
+      "terminal.findMatchBorder": "#E5A422", // Current search match border color
+      "terminal.findMatchHighlightBackground": "#1E1E1E55", // Other search matches background color
+      "terminal.findMatchHighlightBorder": "#E5A422", // Other search matches border color
+      "terminal.hoverHighlightBackground": "#3B3C40", // Hover highlight color
+      "terminalCursor.background": "#E542FF", // Terminal cursor background color
+      "terminalCursor.foreground": "#F8F8F2", // Terminal cursor foreground color
+      "terminal.dropBackground": "#16171D80", // Dragging background color
+      "terminal.tab.activeBorder": "#E542FF", // Active tab border color
+      "terminalCommandDecoration.defaultBackground": "#3B3C40", // Default command decoration background color
+      "terminalCommandDecoration.successBackground": "#A6E22E", // Success command decoration background color
+      "terminalCommandDecoration.errorBackground": "#FF5555", // Error command decoration background color
+      "terminalOverviewRuler.cursorForeground": "#E5A422", // Overview ruler cursor color
+      "terminalOverviewRuler.findMatchForeground": "#E5A422", // Overview ruler marker color for find matches
+      "terminalStickyScroll.background": "#16171D", // Sticky scroll background color
+      "terminalStickyScroll.border": "#282C34", // Sticky scroll border color
+      "terminalStickyScrollHover.background": "#3B3C40", // Sticky scroll hover background color
+      "terminal.initialHintForeground": "#E5A422", // Initial hint foreground color
+      // "terminalOverviewRuler.border": "#E5A422", // Overview ruler left-side border color
+      // "terminalCommandGuide.foreground": "#E5A422" // Command guide foreground color
+    }
+  },
+  "material-icon-theme.saturation": 0,
+  "window.commandCenter": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
+  "editor.formatOnPaste": true,
+  "workbench.layoutControl.type": "toggles",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "terminal.integrated.fontFamily": "monospace",
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": false
+}
